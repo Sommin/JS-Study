@@ -7,4 +7,7 @@ function countOddNumbers(limitValue) {
     return Math.floor((value + 1) / 2);
   } else return value;
 }
-console.log(countOddNumbers("-10"));
+console.log(countOddNumbers("7"));
+console.log(countOddNumbers("10"));
+console.log(countOddNumbers("abc"));
+console.log(countOddNumbers("2.5"));
